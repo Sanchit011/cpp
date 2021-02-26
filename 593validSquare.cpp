@@ -24,6 +24,7 @@ public:
             if(s[i] == b){sides++;}
         }
         if(diagonals == 2 && sides == 4){return true;}
+        
         return false;
     }
 };
